@@ -111,6 +111,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/source\/img\/digital_ocean.png": {
+		"ft": 32768,
+		"iS": 16263,
+		"oA": 0,
+		"oAP": "\/build\/img\/digital_ocean.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/docker.png": {
+		"ft": 32768,
+		"iS": 30332,
+		"oA": 0,
+		"oAP": "\/build\/img\/docker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/es6.png": {
+		"ft": 32768,
+		"iS": 5141,
+		"oA": 0,
+		"oAP": "\/build\/img\/es6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/face1.jpg": {
 		"ft": 16384,
 		"iS": 3290,
@@ -456,6 +489,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/github.png": {
+		"ft": 32768,
+		"iS": 29968,
+		"oA": 0,
+		"oAP": "\/build\/img\/github.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/icon-email.png": {
 		"ft": 32768,
 		"iS": 347,
@@ -489,11 +533,43 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/java.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/java.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/js.png": {
+		"ft": 32768,
+		"iS": 10732,
+		"oA": 0,
+		"oAP": "\/build\/img\/js.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/mock.png": {
 		"ft": 32768,
 		"iS": 185220,
 		"oA": 0,
 		"oAP": "\/build\/img\/mock.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/python.png": {
+		"ft": 32768,
+		"iS": 7821,
+		"oA": 0,
+		"oAP": "\/build\/img\/python.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -510,11 +586,33 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/reactn.png": {
+		"ft": 32768,
+		"iS": 72016,
+		"oA": 0,
+		"oAP": "\/build\/img\/reactn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/redux.png": {
 		"ft": 32768,
 		"iS": 217989,
 		"oA": 0,
 		"oAP": "\/build\/img\/redux.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/sketch.png": {
+		"ft": 32768,
+		"iS": 18968,
+		"oA": 0,
+		"oAP": "\/build\/img\/sketch.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
