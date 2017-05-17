@@ -54,7 +54,7 @@
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel"
              aria-labelledby="collapsingNavbar">
             <ul class="nav navbar-nav pull-xs-right">
-                <li class="nav-item nav-item-toggable ">
+                <li class="nav-item nav-item-toggable active">
                     <a class="nav-link" href="./projects.html">Projects<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item nav-item-toggable">
@@ -127,99 +127,119 @@
 <!-- Hero Section
 ================================================== -->
 
-<header class="jumbotron bg-inverse text-xs-center center-vertically" role="banner">
-    <div class="container">
-        <h1 class="display-3">Let's create something</h1>
-        <h2 class="m-b-3">Your Ideas + My skills = Creation</h2>
-        <a class="btn btn-outline-secondary m-b-1" href="http://tympanus.net/codrops/?p=25217" style="color:black"
-           role="button"><span class="icon-sketch"></span>Sketch included</a>
+<header id="landioCarousel" class="carousel carousel-header slide bg-faded" data-ride="carousel" data-interval="3000" role="banner">
+    <ol class="carousel-indicators bg-info">
+        <li data-target="#landioCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#landioCarousel" data-slide-to="1"></li>
+        <li data-target="#landioCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url(img/bg-header.jpg);">
+            <div class="carousel-caption">
+                <h1 class="display-3" style="color:black">Mobile Apps</h1>
+                <br>
+                <a class="btn btn-outline-secondary m-b-2" href="#apps" role="button"><span class="icon-sketch"></span>See Apps</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(img/bg-header-3.jpg);">
+            <div class="carousel-caption">
+                <h1 class="display-3">Land.io, open source.</h1>
+                <h2 class="m-b-3 hidden-sm-down">Includes <strong>all assests</strong> for easy customization.</h2>
+                <a class="btn btn-outline-secondary m-b-2" href="http://tympanus.net/codrops/?p=25217" role="button"><span class="icon-sketch"></span>Sketch included</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(img/bg-header-2.jpg);">
+            <div class="carousel-caption">
+                <h1 class="display-3">Land.io, blissful innovation.</h1>
+                <h2 class="m-b-3 hidden-sm-down">Craft your journey, <em>absolutely free</em>, with <a href="ui-elements.html" class="jumbolink">Land.io UI kit</a>.</h2>
+                <a class="btn btn-outline-secondary m-b-2" href="http://tympanus.net/codrops/?p=25217" role="button"><span class="icon-sketch"></span>Sketch included</a>
+            </div>
+        </div>
         <ul class="nav nav-inline social-share">
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/redux.png" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Redux </h6>
-            </a></li>
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/react.svg" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">React</h6>
-            </a>
-            </li>
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/react.svg" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">React Native</h6>
-
-            </a></li>
-
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/sketch.png" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Sketch</h6>
-
-            </a></li>
-
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/java.svg" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Java</h6>
-
-            </a></li>
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/js.png" height="40" width="40" alt="Avatar">
-                <img src="img/es6.png" height="40" width="40" alt="Avatar">
-
-                <h6 style="color:black; margin-top: 5px">Javascript ES6</h6>
-
-            </a></li>
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/python.png" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Python</h6>
-
-            </a></li>
-
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/digital_ocean.png" height="40" width="70" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Digital Ocean</h6>
-
-            </a></li>
-
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/docker.png" height="40" width="60" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">Docker</h6>
-
-            </a></li>
-
-            <li class="nav-item" style="padding-left: 0.35rem;padding-right: 0.35rem"><a href="#"
-                                                                                         class="btn btn-social btn-social-icon btn-social-facebook"
-                                                                                         style="padding: .5rem;">
-                <img src="img/github.png" height="40" width="40" alt="Avatar">
-                <h6 style="color:black; margin-top: 5px">GitHub</h6>
-
-            </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="icon-twitter"></span> 1024</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="icon-facebook"></span> 562</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="icon-linkedin"></span> 356</a></li>
         </ul>
     </div>
 </header>
 
 
+
 <!-- Intro
 ================================================== -->
 
-<section class="section-intro bg-faded text-xs-center">
+<section class="section-intro bg-faded text-xs-center" id="apps">
     <div class="container">
+        <div class="col-md-6 col-xl-6 col-xl-offset-3">
+
+            <!-- User Card
+            ================================================== -->
+
+            <div class="card card-inverse card-social text-xs-center">
+                <div class="card-block has-light-mask">
+                    <img src="img/face5.jpg" height="90" width="90" alt="Avatar" class="img-circle">
+                    <h5 class="card-title">Joel Fisher</h5>
+                    <h6 class="card-subtitle">hey@joelfisher.com</h6>
+                    <button type="submit" class="btn btn-outline-secondary btn-sm">Follow</button>
+                </div>
+                <div class="card-block container">
+                    <div class="row">
+                        <div class="col-md-4 card-header-pills">
+                            <h4>149
+                                <small class="text-uppercase">Shots</small>
+                            </h4>
+                        </div>
+                        <div class="col-md-4 card-stat">
+                            <h4>1,763
+                                <small class="text-uppercase">Follows</small>
+                            </h4>
+                        </div>
+                        <div class="col-md-4 card-stat">
+                            <h4>324
+                                <small>D/Ls</small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="invisible">
+        </div>
+        <div class="col-md-6 col-xl-6 col-xl-offset-3">
+
+            <!-- User Card
+            ================================================== -->
+
+            <div class="card card-inverse card-social text-xs-center">
+                <div class="card-block has-light-mask">
+                    <img src="img/face5.jpg" height="90" width="90" alt="Avatar" class="img-circle">
+                    <h5 class="card-title">Joel Fisher</h5>
+                    <h6 class="card-subtitle">hey@joelfisher.com</h6>
+                    <button type="submit" class="btn btn-outline-secondary btn-sm">Follow</button>
+                </div>
+                <div class="card-block container">
+                    <div class="row">
+                        <div class="col-md-4 card-header-pills">
+                            <h4>149
+                                <small class="text-uppercase">Shots</small>
+                            </h4>
+                        </div>
+                        <div class="col-md-4 card-stat">
+                            <h4>1,763
+                                <small class="text-uppercase">Follows</small>
+                            </h4>
+                        </div>
+                        <div class="col-md-4 card-stat">
+                            <h4>324
+                                <small>D/Ls</small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="invisible">
+        </div>
         <h3 class="wp wp-1">I strive to craft beautiful web & mobile experiences from your ideas</h3>
         <p class="lead wp wp-2">UI is the first point of contact between an App and its user, I ensure that its smooth
             and appealing by the utilizing the
@@ -376,10 +396,8 @@
 ================================================== -->
 
 
-
 <!-- Text Content
 ================================================== -->
-
 
 
 <!-- News
@@ -405,8 +423,9 @@
             </div>
             <div class="col-md-6 col-lg-7">
                 <ul class="nav nav-inline ">
-                    <li class="nav-item"><a class="nav-link scroll-top" style="color:black" href="#totop">Back to top <span
-                            class="icon-caret-up"></span></a></li>
+                    <li class="nav-item"><a class="nav-link scroll-top" style="color:black" href="#totop">Back to top
+                        <span
+                                class="icon-caret-up"></span></a></li>
                 </ul>
             </div>
         </div>
